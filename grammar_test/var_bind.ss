@@ -13,3 +13,12 @@
 ;; x,y life cycle - end
 
 (newline)
+
+
+(
+let ((x 23) (y 42))
+(set! x 10);; make x = 10
+(display (+ x y))
+)
+
+(newline)
